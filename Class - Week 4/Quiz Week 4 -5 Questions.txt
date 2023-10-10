@@ -1,0 +1,10 @@
+Q1) Suppose we have: planets = ['Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter']. To display 'Jupiter', call:
+
+
+
+Q2) The range() function:
+
+
+
+Q3) This code: list1 = list2
+

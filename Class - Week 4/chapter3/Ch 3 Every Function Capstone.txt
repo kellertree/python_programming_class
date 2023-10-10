@@ -1,0 +1,31 @@
+.reverse()  done
+
+.sort() done
+.sort(reverse=True) done
+
+sorted(list) done
+sorted(list, reverse=True) done
+
+list = [] done
+
+print() done
+
+list.remove('elementvalue') done
+
+list.title() done
+
+list.pop() done
+
+del list[0]  # deletes the value/element that is presently in 0 Where 0 is a value at index 0 in the list.] done
+
+list.insert(0, 'value') # Where 0 is the index destination for the 'value'. done
+
+.append('value') done
+
+list[0] # Selects the element that is stored at index 0 in the list. done
+
+
+len() done
+
+
+

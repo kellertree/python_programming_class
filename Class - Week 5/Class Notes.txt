@@ -1,0 +1,70 @@
+If you know about a bug you fix it before you put it in the system.
+
+Don't use a single letter for a variable name.
+
+You can use the len() function to check the length of a list. This can be used to help you locate the index. Remember if len() gives you a number to account for the one-off standard.
+
+------------------------------------------
+animals = ['cat', 'dog', 'bird', 'goat']
+len(animals)
+
+OUTPUT:
+4
+------------------------------------------
+index[0] = cat
+index[1] = dog
+index[2] = bird
+index[3] = goat
+
+# Notice that the index stops at 3 and the len provides you with a length of 4.
+-------------------------------------------------------------------------------
+
+for teen_age in range(13, 20):
+	print(f'Happy {teen_age}th birthday!')
+
+many_nums = range(10000001)
+print(many_nums)
+
+# This stores the range of 100001 as a list of numbers.
+many_nums_list = list(range(100001)
+
+
+# This will count by 1000s, we need to include the 0 to tell the system that we are starting at 0.
+less_nums = list(range(0, 10000001, 1000))
+print(less_nums)
+
+
+# Here we will count down from ten, stepping -1 at a time. 
+for number in range(10, 0, -1):
+	print(number)
+
+# here we wil lcount down from 10, stepping -2 at a time.
+for number in range(10, 0, -2):
+	print(number)
+
+---------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

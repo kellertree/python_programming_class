@@ -1,0 +1,52 @@
+There are two types of things that are immutable.
+
+There are a lot of things in python that are immutable, meaning they cannot be changed. Ex.) strings, tuples.
+Immutable variables are very handy for distributed computing. Google can send a value over 10,000 computers in a few miliseconds to retrieve a search for you.
+
+What does it mean to be immutable?
+
+1) A data type is immutable.
+
+
+
+A variable is a location in memory. 
+
+When you provide a variable with a new value, python interprets it as you are not allowed to use that same memory location again so instead it creates a new memory location instead.
+
+var1 = 'toast'
+print(var1)
+
+toast
+
+var1 = 'potato'
+print(var1)
+potato
+
+It looks like we change it but really it creates a new location in memory for the value.
+
+
+var2 = 4
+
+var2 = 8
+
+Integers are mutable so their values can be changed.
+
+
+var1 = 'string' 
+
+var2 = 'stringswitch'
+
+Strings are immutable. When you give a variable a new string it creates a new memory space for that variable.
+
+
+len() provides us the length of our data
+length_of_hi = len('Hi')
+print(length_of_hi)
+output: 
+
+
+
+
+
+
+

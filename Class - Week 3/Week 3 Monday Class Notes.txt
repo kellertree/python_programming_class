@@ -1,0 +1,21 @@
+At 11:11 am I missed a student question.
+
+At 11:18 am the order of operations was discussed.
+
+At 11:25-11:33 I got distracted.
+
+
+
+The python language is sequential, it branches and it loops.
+It is a 11:36am(review video)
+
+
+
+AT 11:58 am the professor reminds us how memory is stored on a computer for varaibles. He talk about this in last weeks class.
+
+
+At 12:00 professor talks about data science briefly. He also talks about grading here.
+
+One of the best skills a programmer can have is the ability to debug code. Alot of the times the way that we lay out, most curriculum is laied out we don't learn alot of debugging skills the professor wants to change that. So at the beginning of each unit he adds a debugging section.
+
+

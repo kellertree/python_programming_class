@@ -1,0 +1,252 @@
+Code runs sequentially.
+
+There are two other things it does that are acceptions to how it runs sequentially. It also branches.
+
+Alan touring - He figured out that if you have these 3 simple operations in place. Sequential, looping, branching. You can do anything mathematically that has an answer.
+
+
+What then is there to learn?
+There are a lot of details that we need to know to make it work with a particular computer environment.
+
+More than that alot of people have written code for us.
+
+We do not want to start from scratch everytime we write a program. We want to build off of what everybody else has done.
+
+
+Functions take us into procedural programming. A procedure is a lose synonym for a function.
+
+What is a function? We put in an input and some form of output comes out ~ usually ~. 
+
+4 things we are going to learn: Sequential, Iteration, Loop Statements, Functions.
+
+Lists and dictionaries we will explore later.
+
+There are always going to be inputs, processing and outputs.
+
+print("Hello world!")
+print('All done!')
+
+Hello World!
+All done!
+
+Inputs are almost always data and the output is always more data. 
+
+The diffrent types of data:
+
+# Prints out the number 5.
+print(5)
+5
+
+# Won't work. Unkown data type.
+print(Hello)
+
+# Prints out a floats. 
+print(5.5555)
+
+# strings, ints, floats "On quiz 1" 
+
+strings we use double quotes or single quotes to surround text and that is called delimiting.
+
+With a number we do not need the quotes. If we type a string without the quotes we get an error because the system does not know the data type.
+
+# These are two booleans. Python understands capital T true is part of the python programming language, but if it was a lower case t it would not work.
+
+print(True)
+prnit(False) 
+
+There was a mathematician named bool and these values are named after him.
+
+Alan Touring figured out what computers are capable of doing prior to there being computeris. So what he did was come up with the mathematical idea of the computer.
+
+Depending on what it read or wrote it would take another action. He found out that you can do anything thats mathematically possible. 
+
+
+
+We have learned four data types: Strings, Int, Float and Bool
+
+
+lets learn about variable types:
+
+Comments entered at 10:58 - Video discusses below at 10:55am revisit video for 10:40am - 10:55 am to review bools and the reason to use print(my_age) vs just typing my_age.
+my_age = 25
+my_age
+dogs_name = 'Ember'
+print(dogs_name)
+
+review at 11:05am too
+--------------------------------------------------------------
+
+= Means assignmen
+
+== means equal
+
+-- Inputs --
+my_age = 25
+print(my_age)
+dogs_name = 'Ember'
+print(dogs_name)
+print(dogs_name == 'Bowie')
+print(dogs_name == 'Ember')
+
+-- Outputs --
+25
+Ember
+False
+True
+
+# Add 7 to Ember. Just kidding this won't work.
+
+# You cannot add a string and an int. You can only concatentante to a stirng.
+
+print(dogs_name + 7)
+--------------------------
+TypeError
+Cell in [25], line 1
+----> 11 print(dogs_name + 7)
+
+TypeError: can only concatenate str (not "int" to str)
+--------------------------
+
+# Concatenate the exclatmation point to dogs_name.
+
+-- Input --
+print(dogs_name + "!")
+
+-- Output -- 
+Ember!
+
+---------------------------------------------------------------
+
+If my_age is assigned 25 then we can multiply 1.5 and the answer will result in a float 37.5 because 25 is an integer.
+
+print(my_age * 1.5)
+37.5
+------------------------------------------------------------
+
+
+*Review class recording at 51:35.
+
+
+~ 9/6/2023 at 11:22am in recording. ~
+Python is a strongly-type language, meaning:
+Strongtyping occurs when one a variable is assigned a value it remains that for the lifetime of the application. The strongtyping doesn't allow us to add strings to integers. In strongtyping programming remembers the type. It kind of acts as a seatbelt for us.
+
+~ 11:27 am ~
+What if we change the value of dogs_name = 10
+print(my_age * dogs_name)
+250
+
+Well then the value of the data type changes for the lifetime of the program until it is intentionally changes. You can re-use a variables name and it seems like you are changing the type of the variable but what is really happening is that we are allocating new space for that variable and we are loosing the reference to the old variable. Under the new variable we have a new type.
+
+It happens sequentially in the code:
+If you assign dog_name to a string then print it, then update the dog_name to a integer then print it. 
+
+The term for this is pythnon is a dynamically typed language.
+
+"Where it looks like we are changing the type we are not changing the type we are just reallocating memory"
+
+::at 11:32-35am I had to go to the bathroom review video::
+
+
+
+python is an interpreted language; a language like java c-sharp are not interpreted language they are compiled languages. They are meant for very large programs. If you tried to run a compiled file as an interpreted file it would take a very long time.
+
+Human-Readable / Programmer Readable code 
+
+
+It is known that python is slower but we usually do not care because there are ways we can make it go faster but also we are not that worried about computer time, we are worried about programmer time.
+
+Memory, variables, interpreter, data types, string, int and float we spent the most time on. There is also boolean out there.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

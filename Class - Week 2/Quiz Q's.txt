@@ -1,0 +1,30 @@
+Quiz Q's:
+
+The three data types we learned this week:
+String, Int, Float
+
+True and False are booleans.
+
+
+Python is an interpreted language meaning:
+
+
+~ 9/6/2023 at 11:22am in recording. ~
+Python is a strongly-type language, meaning:
+Strongtyping occurs when one a variable is assigned a value it remains that for the lifetime of the application. The strongtyping doesn't allow us to add strings to integers. In strongtyping programming remembers the type. It kind of acts as a seatbelt for us.
+
+
+
+
+
+The following is an example of what? next_animal = 'lamb':
+
+
+After this statement executes, what does the variable number_of_students contain? number_of_students = 20:
+
+In the following, high_price and low_price have the same value:
+high_price = '99.99'
+low_price = 99.99 
+
+True or False
+
