@@ -1,0 +1,22 @@
+
+# Gives us the sum total of items we have for sale in our dictionary.
+# Fire you create a variable for total_cost, then you run a for loop
+# that adds cost for each item in dictionary.
+# You will want to memorize this pattern.
+# We do this so frequently you have to be able to do this.
+--------------------------------------------------------------------
+total_cost = 0
+for cost in products.values():
+    total_cost = total_cost + cost
+print(f"The sum total of items for sale is: {total_cost}.")
+--------------------------------------------------------------------
+
+Adding Up Total Cost Explained
+
+total: 0
+total + cost: 0 + 9.99 -> 9.99
+total: 9.99
+total + cost: 9.99 + 6.99 -> 16.98
+total: 16.98
+total + cost: 16.98 -> 22.97
+total: 22.97
